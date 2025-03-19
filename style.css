@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: cursive;
 }
 
@@ -296,7 +297,7 @@
 }
 
 .secondMain {
-  max-width: 1200px;
+  max-width: 80%;
   margin: auto;
   position: relative;
 }
@@ -313,7 +314,7 @@
 
 .slideDescriptionIMG {
   width: 50%;
-  transform: scale(1) rotate(0deg); 
+  transform: scale(1) rotate(0deg);
   transition: transform 2s ease-in-out;
 }
 
@@ -448,33 +449,41 @@
 }
 
 .whatMakesDifferent {
-  margin-top: 172px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
   margin-bottom: 160px;
-  gap: 50px;
+  margin-top: 172px;
+  gap: 4%;
 }
 
 .imgContDifferent {
-    flex: 1;
-}
-
-.firstIMG {
-  text-align: center;
-  margin-bottom: 25px;
-}
-.secondIMG {
-  align-items: flex-start;
-  justify-content: center;
-  display: flex;
-}
-
-.thirdIMG {
-  margin-left: 25px;
+  flex-basis: 48%;
 }
 
 .textContDifferent {
+  flex-basis: 48%;
   margin-top: 92px;
-  flex: 1;
+}
+
+.firstIMG {
+  max-width: 80%;
+  margin-bottom: 25px;
+}
+.secondIMGCont {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 25px;
+}
+
+.secondIMG {
+  max-width: 50%;
+}
+
+.thirdIMG {
+  max-width: 50%;
 }
 
 .textDifferentP {
@@ -682,4 +691,605 @@
   color: #fff;
   height: 61px;
   width: 73px;
+}
+
+@media (max-width: 1050px) {
+  .whatMakesDifferent {
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .main {
+    padding: 0 10px;
+  }
+  .saveMoney {
+    margin-top: 20px;
+    padding: 0 10px;
+  }
+  .linksFooter {
+    padding: 0 10px;
+  }
+}
+
+@media (max-width: 920px) {
+  .mainDescription {
+    margin-right: 0;
+    padding-right: 0;
+  }
+  .content h3 {
+    font-size: 14px;
+  }
+  .content p {
+    font-size: 12px;
+  }
+  .social h3 {
+    font-size: 14px;
+  }
+  .social p {
+    font-size: 12px;
+  }
+  .identity h3 {
+    font-size: 14px;
+  }
+  .identity p {
+    font-size: 12px;
+  }
+  .product h3 {
+    font-size: 14px;
+  }
+  .product p {
+    font-size: 12px;
+  }
+  .whyChooseP {
+    font-size: 12px;
+  }
+  .headings h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .textContDifferent {
+    flex-basis: 100%;
+  }
+  .textContainerP {
+    font-size: 17px;
+  }
+  .textContainerH3 {
+    font-size: 25px;
+  }
+  .secondMain {
+    margin-top: 20px;
+  }
+  .slideTextCont {
+    margin-top: 20px;
+  }
+  .slideTextP {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 830px) {
+  .hedLink {
+    font-size: 14px;
+  }
+  .logo {
+    font-size: 18px;
+  }
+  .desH1 {
+    font-size: 50px;
+  }
+  .desP {
+    font-size: 12px;
+  }
+  .content h3 {
+    font-size: 12px;
+  }
+  .content p {
+    font-size: 10px;
+  }
+  .social h3 {
+    font-size: 12px;
+  }
+  .social p {
+    font-size: 10px;
+  }
+  .identity h3 {
+    font-size: 12px;
+  }
+  .identity p {
+    font-size: 10px;
+  }
+  .product h3 {
+    font-size: 12px;
+  }
+  .product p {
+    font-size: 10px;
+  }
+  .content a {
+    font-size: 12px;
+  }
+  .social a {
+    font-size: 12px;
+  }
+  .product a {
+    font-size: 12px;
+  }
+  .identity a {
+    font-size: 12px;
+  }
+  .collect div h2 {
+    font-size: 14px;
+  }
+  .collect div p {
+    font-size: 12px;
+  }
+  .data div h2 {
+    font-size: 14px;
+  }
+  .data div p {
+    font-size: 12px;
+  }
+  .finalize div h2 {
+    font-size: 14px;
+  }
+  .finalize div p {
+    font-size: 12px;
+  }
+  .whyChooseLI {
+    font-size: 12px;
+  }
+  .slideTextP {
+    font-size: 10px;
+  }
+  .footerP {
+    font-size: 20px;
+  }
+  .footerH2 {
+    font-size: 30px;
+  }
+  .footerH2 span {
+    font-size: 30px;
+  }
+  .getInTouchAdress {
+    font-size: 12px;
+  }
+  .getInTouchEmail {
+    font-size: 12px;
+  }
+  .footerLearnMoreH2 {
+    font-size: 14px;
+  }
+  .footerLearnMore a {
+    font-size: 12px;
+  }
+  .socialLogo {
+    font-size: 14px;
+  }
+  .socialP {
+    font-size: 12px;
+  }
+  .getInTouchH2 {
+    font-size: 14px;
+  }
+  .footerOurNewseltterH2 {
+    font-size: 14px;
+  }
+  .footerOurNewseltterP {
+    font-size: 10px;
+  }
+  .footerInput {
+    border: 0.5px solid lightgray;
+    outline: 0;
+    height: 40px;
+    width: 117px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+  }
+  .footerInputBtn {
+    border: 0;
+    outline: 0;
+    background: #a07cc5;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    height: 40px;
+    width: 36.5px;
+  }
+}
+
+@media (max-width: 650px) {
+  .textContainerP {
+    font-size: 12px;
+  }
+  .textContainerH3 {
+    font-size: 16px;
+  }
+  .slideTextP {
+    font-size: 8px;
+  }
+  .slideTextH4 {
+    font-size: 12px;
+  }
+  .slideTextH5 {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+  .textProjectP {
+    font-size: 18px;
+  }
+  .textProjectH1 {
+    font-size: 25px;
+  }
+  .hedLink {
+    font-size: 10px;
+    color: #fff;
+  }
+  .logo {
+    color: #fff;
+  }
+  .desH1 {
+    font-size: 35px;
+  }
+  .desP {
+    font-size: 14px;
+  }
+  .desBtn {
+    font-size: 14px;
+  }
+  .content {
+    min-height: 200px;
+  }
+  .product {
+    min-height: 200px;
+  }
+  .identity {
+    min-height: 200px;
+  }
+  .social {
+    min-height: 200px;
+  }
+  .content h3 {
+    font-size: 10px;
+  }
+  .content p {
+    font-size: 8px;
+  }
+  .social h3 {
+    font-size: 10px;
+  }
+  .social p {
+    font-size: 8px;
+  }
+  .identity h3 {
+    font-size: 10px;
+  }
+  .identity p {
+    font-size: 8px;
+  }
+  .product h3 {
+    font-size: 10px;
+  }
+  .product p {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 426px) {
+  .hedLink {
+    font-size: 8px;
+  }
+  .imgContDifferent {
+    display: none;
+  }
+  .saveMoney {
+    flex-wrap: wrap;
+  }
+  .footerP {
+    font-size: 10px;
+  }
+  .footerH2 {
+    font-size: 20px;
+  }
+  .footerH2 span {
+    font-size: 20px;
+  }
+  .getInTouchAdress {
+    font-size: 8px;
+  }
+  .getInTouchEmail {
+    font-size: 8px;
+  }
+  .footerLearnMoreH2 {
+    font-size: 10px;
+  }
+  .footerLearnMore a {
+    font-size: 10px;
+  }
+  .socialLogo {
+    font-size: 12px;
+  }
+  .socialP {
+    font-size: 8px;
+  }
+  .getInTouchH2 {
+    font-size: 10px;
+  }
+  .footerOurNewseltterH2 {
+    font-size: 10px;
+  }
+  .footerOurNewseltterP {
+    font-size: 8px;
+  }
+  .footerInput {
+    border: 0.5px solid lightgray;
+    outline: 0;
+    height: 40px;
+    width: 67px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding: 5px;
+  }
+  .footerInputBtn {
+    border: 0;
+    outline: 0;
+    background: #a07cc5;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #fff;
+    height: 40px;
+    width: 30px;
+  }
+  .slideDescriptionCont {
+    margin-top: -90px;
+  }
+  .slideTextCont {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .slideTextP {
+    font-size: 6px;
+  }
+  .slideTextH4 {
+    font-size: 8px;
+  }
+  .slideTextH5 {
+    font-size: 8px;
+  }
+  .content h3 {
+    font-size: 8px;
+  }
+  .content p {
+    font-size: 6px;
+  }
+  .social h3 {
+    font-size: 8px;
+  }
+  .social p {
+    font-size: 6px;
+  }
+  .identity h3 {
+    font-size: 8px;
+  }
+  .identity p {
+    font-size: 6px;
+  }
+  .product h3 {
+    font-size: 8px;
+  }
+  .product p {
+    font-size: 6px;
+  }
+  .content a {
+    font-size: 10px;
+  }
+  .social a {
+    font-size: 10px;
+  }
+  .product a {
+    font-size: 10px;
+  }
+  .identity a {
+    font-size: 10px;
+  }
+  .mainDescription {
+    margin-top: 20px;
+  }
+  .headings h6 {
+    font-size: 15px;
+  }
+  .headings h1 {
+    font-size: 20px;
+  }
+  .collect div h2 {
+    font-size: 8px;
+  }
+  .collect div p {
+    font-size: 6px;
+  }
+  .data div h2 {
+    font-size: 8px;
+  }
+  .data div p {
+    font-size: 6px;
+  }
+  .finalize div h2 {
+    font-size: 8px;
+  }
+  .finalize div p {
+    font-size: 6px;
+  }
+  .whyChooseH2 {
+    font-size: 10px;
+  }
+  .whyChooseP {
+    font-size: 7px;
+  }
+  .whyChooseLI {
+    font-size: 7px;
+  }
+  .textProjectP {
+    font-size: 10px;
+  }
+  .textProjectH1 {
+    font-size: 15px;
+  }
+  .slide1H2 {
+    font-size: 10px;
+  }
+  .slide2H2 {
+    font-size: 10px;
+  }
+  .slide3H2 {
+    font-size: 10px;
+  }
+  .slide1P {
+    font-size: 8px;
+  }
+  .slide2P {
+    font-size: 8px;
+  }
+  .slide3P {
+    font-size: 8px;
+  }
+  .textDifferentP {
+    font-size: 10px;
+  }
+  .textDifferentH2 {
+    font-size: 15px;
+  }
+  .divDifferentH3 {
+    font-size: 10px;
+  }
+  .divDifferentP {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 376px) {
+  .slideDescriptionCont {
+    margin-top: 20px;
+  }
+  .slideTextCont {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .vectorContainer1Percent {
+    font-size: 15px;
+  }
+
+  .vectorContainer2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 30px;
+    position: relative;
+  }
+
+  .vectorContainer2Percent {
+    font-size: 15px;
+  }
+  .whyChooseFirstIMG {
+    display: none;
+  }
+  .whyChooseText {
+    text-align: center;
+  }
+  .whyChooseH2 {
+    font-size: 40px;
+  }
+  .whyChooseP {
+    font-size: 20px;
+  }
+  .whyChooseText {
+    margin-top: 20px;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 321px) {
+  .desH1 {
+    font-size: 25px;
+  }
+  .desP {
+    font-size: 12px;
+  }
+  .content h3 {
+    font-size: 8px;
+  }
+  .content p {
+    font-size: 6px;
+  }
+  .social h3 {
+    font-size: 8px;
+  }
+  .social p {
+    font-size: 6px;
+  }
+  .identity h3 {
+    font-size: 8px;
+  }
+  .identity p {
+    font-size: 6px;
+  }
+  .product h3 {
+    font-size: 8px;
+  }
+  .product p {
+    font-size: 6px;
+  }
+  .content a {
+    font-size: 8px;
+  }
+  .social a {
+    font-size: 8px;
+  }
+  .product a {
+    font-size: 8px;
+  }
+  .identity a {
+    font-size: 8px;
+  }
+  .content {
+    min-height: 140px;
+  }
+  .product {
+    min-height: 140px;
+  }
+  .social {
+    min-height: 140px;
+  }
+  .identity {
+    min-height: 140px;
+  }
+  .mainDescription p {
+    margin-bottom: 10px;
+    color: #60697b;
+  }
+  .wrapperChoose div{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .collect div p {
+    padding: 5px;
+  }
+  .data div p {
+    padding: 5px;
+  }
+  .finalize div p {
+    padding: 5px;
+  }
+  .footerP {
+    font-size: 8px;
+  }
+  .footerH2 {
+    font-size: 16px;
+  }
+  .footerH2 span {
+    font-size: 16px;
+  }
+  .textProjectH1{
+    font-size: 12px;
+  }
 }
