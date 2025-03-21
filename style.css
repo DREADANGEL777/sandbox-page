@@ -13,7 +13,7 @@
 
 .main {
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .links-logo {
@@ -74,8 +74,8 @@
 
 .mainDescription {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 .mainDescription h3 {
@@ -164,8 +164,8 @@
 
 .wrapperChoose {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
 }
 
 .wrapperChoose img {
@@ -979,7 +979,24 @@
     font-size: 8px;
   }
   .imgContDifferent {
-    display: none;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .firstIMG1 {
+    width: 100%;
+    height: 300px;
+  }
+  .secondIMG {
+    width: 100%;
+    height: 300px;
+  }
+  .thirdIMG {
+    width: 100%;
+    height: 300px;
+  }
+  .secondIMGCont {
+    display: block;
   }
   .saveMoney {
     flex-wrap: wrap;
@@ -1175,9 +1192,6 @@
     margin-left: 10px;
     margin-right: 10px;
   }
-  .vectorContainer1Percent {
-    font-size: 15px;
-  }
 
   .vectorContainer2 {
     text-align: center;
@@ -1186,11 +1200,11 @@
     position: relative;
   }
 
-  .vectorContainer2Percent {
-    font-size: 15px;
+  .whyChooseImage {
+    display: block;
   }
   .whyChooseFirstIMG {
-    display: none;
+    width: 100%;
   }
   .whyChooseText {
     text-align: center;
@@ -1267,7 +1281,7 @@
     margin-bottom: 10px;
     color: #60697b;
   }
-  .wrapperChoose div{
+  .wrapperChoose div {
     width: 100%;
     flex-wrap: wrap;
   }
@@ -1289,7 +1303,287 @@
   .footerH2 span {
     font-size: 16px;
   }
-  .textProjectH1{
+  .textProjectH1 {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 151px) {
+  .hedLink {
+    font-size: 5px;
+  }
+  .logo {
+    font-size: 8px;
+  }
+  .desH1 {
+    font-size: 10px;
+  }
+  .desP {
+    font-size: 4px;
+  }
+  .mainDescription {
+    flex-wrap: wrap;
+  }
+  .content {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .identity {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .product {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .social {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .wrapperChoose {
+    flex-wrap: wrap;
+  }
+  .data {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .finalize {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .collect {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .headings h1 {
+    font-size: 6px;
+  }
+  .headings h6 {
+    font-size: 10px;
+  }
+  .whyChooseH2 {
+    font-size: 8px;
+  }
+  .whyChooseP {
+    font-size: 6px;
+  }
+  .whyChooseLI {
+    font-size: 6px;
+  }
+  .textContainerP {
+    font-size: 10px;
+  }
+  .textContainerH3 {
+    font-size: 10px;
+  }
+  .vectorContainer1 {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .vectorContainer1 img {
+    width: 100px;
+  }
+
+  .vectorContainer1Percent {
+    font-size: 25px;
+    font-weight: lighter;
+    position: absolute;
+    right: 26%;
+    top: 50%;
+    margin-top: -20px;
+  }
+
+  .vectorContainer2 {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .vectorContainer2 img {
+    width: 100px;
+  }
+
+  .vectorContainer2Percent {
+    margin-top: -20px;
+    font-size: 25px;
+    font-weight: lighter;
+    position: absolute;
+    right: 26%;
+    top: 50%;
+  }
+  .textContainer {
+    margin-top: 20px;
+    margin-right: 0;
+  }
+  .logo {
+    margin: 25px 0;
+  }
+  .whyChooseBtn {
+    width: 100px;
+    height: 53px;
+    margin-top: 40px;
+  }
+  .slideTextP {
+    font-size: 4px;
+    margin-bottom: 0;
+  }
+  .slideTextH4 {
+    font-size: 5px;
+    margin: 5px 0;
+  }
+  .slideTextH5 {
+    margin: 5px 0;
+    font-size: 5px;
+  }
+  .textProjectH1 {
+    font-size: 7px;
+  }
+  .slide1H2 {
+    font-size: 6px;
+  }
+  .slide1P {
+    font-size: 6px;
+  }
+  .slide2H2 {
+    font-size: 6px;
+  }
+  .slide2P {
+    font-size: 6px;
+  }
+  .slide3H2 {
+    font-size: 6px;
+  }
+  .slide3P {
+    font-size: 6px;
+  }
+  .imgContDifferent {
+    width: 140px;
+  }
+  .firstIMG {
+    max-width: 100%;
+    height: 150px;
+    margin-bottom: 40px;
+  }
+  .secondIMGCont {
+    width: 140px;
+  }
+  .secondIMG {
+    max-width: 100%;
+    height: 150px;
+  }
+
+  .thirdIMG {
+    max-width: 100%;
+    height: 150px;
+  }
+
+  .secondIMG img {
+    width: 140px;
+    height: 150px;
+  }
+
+  .thirdIMG img {
+    height: 150px;
+    width: 140px;
+  }
+  .textDifferentP {
+    margin-bottom: 10px;
+    font-size: 8px;
+  }
+
+  .textDifferentH2 {
+    margin-bottom: 20px;
+    font-size: 6px;
+  }
+
+  .divWrapperDifferent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .divDifferent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 14px;
+  }
+  .divDifferentIMG {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  .divDifferentH3 {
+    margin-bottom: 5px;
+    font-size: 6px;
+  }
+  .divDifferentP {
+    font-size: 4px;
+  }
+  .footerP {
+    font-size: 6px;
+  }
+  .footerH2 {
+    font-size: 7px;
+  }
+  .footerH2 span {
+    font-size: 7px;
+  }
+  .footerBtn {
+    width: 100px;
+    height: 42px;
+  }
+  .socialLogo {
+    font-size: 6px;
+  }
+  .socialP {
+    font-size: 5px;
+  }
+  .getInTouchH2 {
+    font-size: 5px;
+  }
+  .getInTouchFooter {
+    margin: 0 5px;
+  }
+  .getInTouchAdress {
+    font-size: 4px;
+    margin-bottom: 5px;
+  }
+  .getInTouchEmail {
+    font-size: 4px;
+  }
+  .footerLearnMore a {
+    font-size: 4px;
+  }
+  .footerLearnMoreH2 {
+    font-size: 5px;
+    margin-bottom: 10px;
+  }
+
+  .footerLearnMore {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  .footerLearnMoreH2 {
+    margin-bottom: 10px;
+  }
+
+  .footerLearnMore a {
+    margin-bottom: 5px;
+  }
+  .footerOurNewseltterH2 {
+    font-size: 6px;
+  }
+  .footerOurNewseltterP {
+    font-size: 4px;
+  }
+  .footerInput {
+    height: 20px;
+    width: 30px;
+    padding: 5px;
+    font-size: 4px;
+  }
+  .footerInputBtn {
+    height: 20px;
+    width: 20px;
+    font-size: 4px;
   }
 }
